@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;800&display=swap');
+
+body{
+    background-color: #010d34;
+    margin: 0;
+    padding: 0;
+    font-family:'Work Sans', sans-serif;
+    font-size: 16px;
+}
+
+.container{
+    max-width: 1020px;
+    margin: 0 auto;
+}
+
+.input-container{
+    background-color: #6437F2;
+    padding: 30px;
+    border-radius: 15px;
+    margin: 40px 0;
+    text-align: center;
+}
+
+.note-container{
+    background-color: #cd0a48;
+    padding: 30px;
+    border-radius: 15px;
+    min-height: 150px;
+}
+
+.note-list{
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 15px 0;
+    display: flex;
+}
+
+.note-content{
+    width: 95%;
+}
+
+.length{
+    display: block;
+    color: #fff;
+}
+/* Input text form */
+
+.note-title{
+    margin: 0;
+    padding-bottom: 15px;
+    font-size: 25px;
+    color: #fff;
+    font-weight: 500;
+}
+#input-box{
+    width: 96%;
+    border-radius: 10px;
+    padding: 2%;
+    font-size: 16px;
+}
+
+#input-box:focus{
+    outline: 0;
+}
+
+.btn{
+    background: #FF287C;
+    color:#fff;
+    padding: 12px 35px;
+    font-size: 16px;
+    font-weight: 400;
+    border: 0;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+.btn:hover{
+    background-color: #F71069;
+    cursor: pointer;
+}
+
+.fa-trash:hover{
+    color: #F71069;
+    cursor: pointer;
+}
+
+@media screen and (max-width:578px) {
+    body{
+        padding: 20px;
+    }
+.input-container {
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.note-container {
+    padding: 20px;
+    border-radius: 10px;
+    
+}
+
+.note-list {
+    padding: 12px;
+    border-radius: 8px;
+}
+        #input-box {
+            width: 96%;
+            border-radius: 8px;
+            padding: 3%;
+}
+}
+
+/*Foysal Zihak
